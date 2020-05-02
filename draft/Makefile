@@ -1,5 +1,5 @@
 FORMAT := rtf
-BIBLIOGRAPHY := /Users/salah/ramdisk/download/VDEC.bib
+BIBLIOGRAPHY := bib/vdec.bib
 CSL := international-journal-of-cancer.csl
 OUTPUT := draft.$(FORMAT)
 SOURCE_FILES := cover-page.md abstract.md background.md methods.md results.md discussion.md team.md
@@ -26,7 +26,8 @@ setup:
 clean:
 	rm  $(MERGED) $(OUTPUT) 
 
-other:
+# do not use
+__sm:
 			--variable mainfont="DejaVu Sans" \
 			--variable monofont="DejaVu Sans Mono" \
 			--variable fontsize=11pt \
@@ -34,3 +35,5 @@ other:
 			--variable geometry:a4paper \
 			--table-of-contents
 			--filter pandoc-citeproc-preamble \ 
+
+			latest=$(git tag  -l --merged master --sort='-*authordate' | head -n1)
