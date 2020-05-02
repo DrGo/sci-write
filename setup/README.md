@@ -45,7 +45,8 @@
 ## Configuring this repo (once per project)
 - in Command: (soft) symlink the vdec.bib above to bib/vdec.bib (to avoid having different copies of vdec.bib but also make it accessible in the project folder and in vscode explorer).
 - update draft/metadata.yaml with a title, authors etc.
-- update README.md under the root folder with project name and description
+- update README.md under the root folder with project name and description.
+- download needed bibliography styles https://github.com/citation-style-language/styles
 - git init
 
 ## Workflow
@@ -58,11 +59,11 @@
 - see draft/Makefile for settings.
 
 ## TODO:
-- expand Makefile to 
+- expand Makefile (or use a different build tool) to 
   - automate versioning 
   - outputting shared and submitted files 
   - version controls
-  - styling of output documents
+  - styling of output documents (eg use a Word template docx and --reference-doc)
   - different md files depending on purpose: paper, proposal, thesis etc
 - standardize the metadata and automate the process of creating cover page
 - automate creating funding sources, contributions etc.
