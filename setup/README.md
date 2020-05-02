@@ -52,7 +52,7 @@
 - press alt+shift+z to search and insert citations (Zotero must be running) 
 - run make, output will be saved as draft.rtf (see Makefile)
 - use git tag to tag each version sequentially v1, v2, v3 etc eg `git tag -a v1.0 -m "version 1.0"` followed by `git push`
-- see [draft/Makefile](draft/Makefile) for settings.
+- see [draft/Makefile](../draft/Makefile) for settings.
 
 ## TODO:
 - expand Makefile to 
