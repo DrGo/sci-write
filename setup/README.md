@@ -43,7 +43,7 @@
   - Automatic export=> On change (to keep vdec.bib synced with any updates to Zotero) or On Idle (my preference).
 
 ## Configuring this repo (once per project)
-- in Command: (soft) symlink the vdec.bib above to proposal/draft/vdec.bib (to avoid having different copies of vdec.bib but also make it accessible in the project folder and in vscode explorer).
+- in Command: (soft) symlink the vdec.bib above to bib/vdec.bib (to avoid having different copies of vdec.bib but also make it accessible in the project folder and in vscode explorer).
 - update draft/metadata.yaml with a title, authors etc.
 - update README.md under the root folder with project name and description
 - git init
@@ -63,6 +63,7 @@
   - outputting shared and submitted files 
   - version controls
   - styling of output documents
+  - different md files depending on purpose: paper, proposal, thesis etc
 - standardize the metadata and automate the process of creating cover page
 - automate creating funding sources, contributions etc.
 - automate including tables, figures etc
