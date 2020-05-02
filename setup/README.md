@@ -54,6 +54,7 @@
 - edit markdown files using pandoc markdown https://pandoc.org/MANUAL.html#pandocs-markdown
 - add new markdown files to SOURCE_FILES in the Makefile in the order you want them to appear in the final document)
 - press alt+shift+z to search and insert citations. Zotero must be running, and do not forget to include the citation in square brackets, e.g., [@leung2020]
+- alternatively, shift-cmd-c after selecting the reference(s) in Zotero and then cmd-v in vscode (For this to work; Zotero -> preferences -> expoter --> set Quick copy: Default Format => "Better BibTeX Citation Key Quick Copy").
 - run make, output will be saved as draft.rtf (see Makefile)
 - use git tag to tag each version sequentially v1, v2, v3 etc eg `git tag -a v1.0 -m "version 1.0"` followed by `git push`
 - see draft/Makefile for settings.
